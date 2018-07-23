@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>UploadServlet4</display-name>
+  <welcome-file-list>
+    <welcome-file>upload.jsp</welcome-file>
+  </welcome-file-list>
+  <display-name>Upload Servlet Demo Application</display-name>
+  <servlet>
+    <servlet-name>Graficas</servlet-name>
+    <servlet-class>servlet.Graficas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Grafikas</servlet-name>
+    <url-pattern>/grafikas</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>GraficasDia</servlet-name>
+    <servlet-class>servlet.GraficasDia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GraficasDia</servlet-name>
+    <url-pattern>/graficasDia</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DatosCUPS</servlet-name>
+    <servlet-class>servlet.DatosCUPS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DatosCUPS</servlet-name>
+    <url-pattern>/datosCUPS</url-pattern>
+  </servlet-mapping>
+</web-app>
